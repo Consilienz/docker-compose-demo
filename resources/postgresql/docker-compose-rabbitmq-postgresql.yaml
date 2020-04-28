@@ -192,6 +192,10 @@ services:
       - ${SENZING_ETC_DIR:-/etc/opt/senzing}:/etc/opt/senzing
       - ${SENZING_G2_DIR:-/opt/senzing/g2}:/opt/senzing/g2
 
+
+>>>> HEre ara!
+
+
   webapp:
     container_name: senzing-webapp
     depends_on:
